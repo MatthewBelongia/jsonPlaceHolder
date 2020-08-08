@@ -1,0 +1,26 @@
+{
+  "users": [
+    { "id": 1,
+      "name": "Bob",
+      "username": "bobUser",
+      "email": "bobemail@gmail.com",
+      "phone": "123-bob-call",
+      "website": "bobbuildsit.com",
+      "address": "123 bob street"},
+      
+     { "id": 1,
+      "name": "Sally",
+      "username": "sallyUser",
+      "email": "sallyemail@gmail.com",
+      "phone": "123-sal-call",
+      "website": "sallysalt.com",
+      "address": "456 sally street"}
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
