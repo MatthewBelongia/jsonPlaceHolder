@@ -17,26 +17,24 @@
       "address": "456 sally street"}
   ],
   "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+    { "id": 1, "post": 1, name: "bob comment 1", email: "email of comment", body: "great job Bob!" },
+    { "id": 2, "post": 2, name: "sally comment 1", email: "email of comment", body: "Sally is awesome!" },
+    { "id": 3, "post": 1, name: "bob comment 2", email: "email of comment", body: "nice to hear Bob!" }
   ],
-  "profile": {
-    "name": "typicode"
-  },
   "posts": [
     {
       "id": 1,
-      "title": "Lorem Ipsum",
-      "views": 254,
-      "user_id": 123,
-      "tag_id": "foo"
+      "user": 1,
+      "title": "Bob is a great builder!",
+      "body": "Bob built exactly what I wanted",
+      "comments": [1,3]
     },
     {
       "id": 2,
-      "title": "Sic Dolor amet",
-      "views": 65,
-      "user_id": 456,
-      "tag_id": "bar"
-    }
+      "user": 2,
+      "title": "Sally is my friend!",
+      "body": "Sally is my bestest friend",
+      "comments": [2]
+    },
   ]
 }
