@@ -45,7 +45,15 @@
    "posts":[
       {
          "id":1,
-         "user":1,
+         "user": {
+                  "id":1,
+                  "name":"Bob",
+                  "username":"bobUser",
+                  "email":"bobemail@gmail.com",
+                  "phone":"123-bob-call",
+                  "website":"bobbuildsit.com",
+                  "address":"123 bob street"
+                  },
          "title":"Bob is a great builder!",
          "body":"Bob built exactly what I wanted",
          "comments":[
